@@ -11,9 +11,16 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 5. **Display Result**: Print the updated array with the replaced column.
 
 ## 🧾 Program
-
-Add code here
-
+```
+import numpy as np
+import pandas as pd
+exam_data=eval(input())
+lab=np.array(eval(input()))
+df=pd.DataFrame(exam_data,index=lab)
+print(df)
+```
 ## Output
+<img width="935" height="243" alt="image" src="https://github.com/user-attachments/assets/0381afff-72ea-4e18-b3b6-6ab51a51b6d8" />
 
 ## Result
+Thus, the program to create and display a Pandas DataFrame with custom index labels was executed successfully.
